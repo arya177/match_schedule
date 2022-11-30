@@ -1,0 +1,96 @@
+body {background-color: #2b2a2a;}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: #0a0000;
+  color: white;
+  height: 250px;
+  width:55%;
+	margin-left: 400px;
+  margin-top: 20px;
+  border-radius: 25px;
+  transition: width 0.6s, height 0.6s;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.team1{
+	
+	text-align: right;
+	grid-column-start: 1;
+  grid-column-end: 2;
+}
+.sc1{
+	margin-top: 75px;
+	grid-column-start: 2;
+  grid-column-end: 3;
+}
+.vs{
+	padding-top:40px;
+	text-align: center;
+	grid-column-start: 3;
+  grid-column-end: 6;
+}
+.sc2{
+	margin-top: 75px;
+	text-align: right;
+	grid-column-start: 6;
+  grid-column-end: 7;
+}
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.team2{
+	
+	text-align: left;
+	grid-column-start: 7;
+  grid-column-end: 8;
+}
+
+.navbar{
+	margin-top: 40px;
+	height: 150px;
+	justify-content: center;
+}
+.btn-group__item{
+	color: white;
+	border: none;
+	background-color: Transparent;
+	
+	padding: 20px;
+	margin-right: 25px;
+	
+}
+.btn-group__item:hover {
+      border-bottom: 2px solid #fc5a03;
+      color: #fc5a03;
+      transition: 0.7s;
+}
+.card-container:hover{
+	color: #fc5a03;
+	transition: 0.7s;
+	width: 75%;
+	height: 200px;
+	margin-left: 255px; 
+}
+img {
+  width: 150px;
+  height: 130px;
+  object-fit: cover;
+}
+.l1{
+	height: 100px;
+	width: 100px;
+	margin-top: 55px;
+}
+.txt1{
+	text-align: right;
+}
